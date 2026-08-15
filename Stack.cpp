@@ -38,6 +38,7 @@ void peek(){//O(1)
     cout<<"Top Element is : "<<st[top]<<endl;
 }
 
+
 void traverse(){
     if(isUnderflow()){
         cout<<"Stack is Empty"<<endl;
