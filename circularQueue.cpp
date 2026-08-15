@@ -4,6 +4,7 @@ using namespace std;
 
 int cq[MAXSIZE];
 int front = -1,rear = -1;
+
 void enqueue(int x){
     if(front == (rear+1)%MAXSIZE){
         cout<<"Cq is Full"<<endl;
