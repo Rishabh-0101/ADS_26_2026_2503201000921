@@ -5,6 +5,7 @@ struct Node{
     int data;
     Node* next;
 };
+
 Node* top = NULL;
 void push(int x){
     Node* temp = new Node;
