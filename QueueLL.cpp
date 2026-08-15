@@ -66,6 +66,7 @@ int main(){
     enqueue(30);
     peek();
     enqueue(10);
+    enqueue(40);
     display();
     return 0;
 }
